@@ -1,0 +1,24 @@
+# Change the name to your project name.
+name: modern-react
+recipe: mean
+
+services:
+  react:
+    type: node:16
+    port: 3000
+    build_as_root:
+      - apt update -y && apt install -y apt-transport-https build-essential unzip
+      - mkdir -p /var/www/.npm-global/lib
+
+proxy:
+  react:
+    # Update 'test' with the name in line 2.
+    - react.modern-react.lndo.site:3000
+
+tooling:
+  npm:
+    service: react
+  node:
+    service: react
+  npx:
+    service: react
