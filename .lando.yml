@@ -10,10 +10,10 @@ services:
       - apt update -y && apt install -y apt-transport-https build-essential unzip
       - mkdir -p /var/www/.npm-global/lib
 
-proxy:
-  react:
-    # Update 'test' with the name in line 2.
-    - react.modern-react.lndo.site:3000
+# proxy:
+#   react:
+# Update 'test' with the name in line 2.
+# - react.modern-react.lndo.site:3000
 
 tooling:
   npm:
