@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Juan Kunde",
+      "id": 4
+    },
+    {
+      "name": "Kirk Fadel III",
+      "id": 5
+    }
+  ],
+  "albums": [
+    {
+      "id": 12,
+      "title": "Coastal Trip",
+      "userId": 4
+    },
+    {
+      "id": 13,
+      "title": "Football Game",
+      "userId": 5
+    },
+    {
+      "userId": 1,
+      "title": "Practical Frozen Bacon",
+      "id": 21
+    },
+    {
+      "userId": 4,
+      "title": "Ergonomic Plastic Table",
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "title": "Incredible Bronze Towels",
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Plastic Shirt",
+      "id": 30
+    },
+    {
+      "userId": 5,
+      "title": "Refined Rubber Cheese",
+      "id": 31
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7573819099185152",
+      "id": 2
+    },
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6330418305433600",
+      "id": 4
+    },
+    {
+      "albumId": 24,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1616447237259264",
+      "id": 5
+    },
+    {
+      "albumId": 24,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1294452637302784",
+      "id": 7
+    },
+    {
+      "albumId": 29,
+      "url": "https://loremflickr.com/150/150/abstract?lock=161350045138944",
+      "id": 8
+    },
+    {
+      "albumId": 31,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5462587042955264",
+      "id": 9
+    }
+  ]
+}
